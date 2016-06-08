@@ -14,6 +14,18 @@ li.no-indent {
 Bootstrap CSS overrides
 */
 
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: #666;
+    text-shadow: none;
+
+}
+
 .carousel-indicators li {
     background-color: #bbb;
 }
@@ -40,7 +52,7 @@ Center carousel images
 .figure-caption {
     font-style: italic;
     margin: 10px 0 0 5px;
-    color: gray;
+    color: #666;
 }
 
 .nav > li > a:hover,

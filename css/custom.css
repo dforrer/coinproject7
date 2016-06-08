@@ -2,6 +2,9 @@ body {
     margin: 5% 5%;
 }
 
+#content {
+    max-width: 800px;
+}
 
 li.no-indent {
     margin-left: -15px;

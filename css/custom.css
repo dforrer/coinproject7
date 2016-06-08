@@ -14,6 +14,29 @@ li.no-indent {
 Bootstrap CSS overrides
 */
 
+.carousel-indicators li {
+    background-color: #bbb;
+}
+.carousel-indicators .active {
+    background-color: #000;
+}
+
+.carousel-indicators {
+    bottom:-40px;
+}
+
+.carousel-inner {
+    margin-bottom:50px;
+}
+
+/*
+Center carousel images
+*/
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
 .figure-caption {
     font-style: italic;
     margin: 10px 0 0 5px;

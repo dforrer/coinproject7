@@ -8,11 +8,24 @@ body {
 
 li.no-indent {
     margin-left: -15px;
+    font-weight: bold;
 }
 
 /*
 Bootstrap CSS overrides
 */
+
+.page-header {
+    margin-top: -54px;
+}
+
+.nav {
+    max-width: 230px;
+}
+
+h1 {
+    margin-top: 1.5em;
+}
 
 .carousel-caption {
     position: relative;
@@ -23,7 +36,6 @@ Bootstrap CSS overrides
     padding-bottom: 0px;
     color: #666;
     text-shadow: none;
-
 }
 
 .carousel-indicators li {
@@ -59,12 +71,18 @@ Center carousel images
 .nav > li > a:focus {
     text-decoration: none;
     background-color: #fff;
+    border-left: 3px black solid;
+    font-weight: bold;
+    color: #000;
 }
 
 .nav > li > a {
     position: relative;
     display: block;
-    padding: 3px 5px;
+    padding: 3px 10px;
+    font-size: 13px;
+    border-left: 3px white solid;
+    color: #555;
 }
 
 

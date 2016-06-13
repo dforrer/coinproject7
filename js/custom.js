@@ -10,7 +10,6 @@ function updateNav () {
     var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
     for ( var i = 0 ; i < headers.length ; i++ ) {
 
-        console.log("Hello World");
         var h = headers[i];
 
         // give each header a unique id
